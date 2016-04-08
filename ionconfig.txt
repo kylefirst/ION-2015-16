@@ -1,0 +1,56 @@
+courseConstants.stopDelay	2 s
+courseConstants.roadWidth	20 cm
+courseConstants.yellowSpeed	3 m/min
+courseConstants.whiteSpeed	3 m/min
+robotConstants.trackWidth	11 cm
+robotConstants.wheelDiameter	56 mm
+robotConstants.sonarGearRatio	3
+robotConstants.sonarMaxAngle	15 deg
+robotConstants.lineFollowingP	11008
+robotConstants.lineFollowingI	25.5
+robotConstants.lineFollowingD	3
+robotConstants.sonarAlertThreshold	.2 m
+robotConstants.intersectionPullup	9 cm
+robotConstants.parkPullup	10 cm
+robotConstants.parkingSpeed	4 m/min
+robotConstants.rotateSpeed	60 deg/s
+robotConstants.intersectionSweepStart	40 deg
+robotConstants.intersectionSweepEnd	-15 deg
+robotConstants.intersectionSweepThreshold	.3 m
+robotConstants.intersectionSweepIncrement	15 deg
+robotConstants.parkingSweepStart	90 deg
+robotConstants.parkingSweepEnd	60 deg
+robotConstants.parkingSweepThreshold	.3 m
+robotConstants.parkingSweepIncrement	10 deg
+robotConstants.sonarSweepTimeout	8 s
+robotConstants.parkAvoidBackup	.2 m
+robotConstants.parkAvoidSweepStart	80 deg
+robotConstants.parkAvoidSweepEnd	50 deg
+robotConstants.parkAvoidSweepThreshold	.4 m
+robotConstants.parkAvoidSweepIncrement	10 deg
+robotConstants.parkManeuverAngle	20 deg
+robotConstants.parkManeuverDistance	.08 m
+robotConstants.parkCenterDistance	.08 m
+robotConstants.parkAngle	90 deg
+robotConstants.parkBackInDistance	.08 m
+robotConstants.parkDelay	3 s
+robotConstants.pulloutSweepStart	-30 deg
+robotConstants.pulloutSweepEnd	30 deg
+robotConstants.pulloutSweepThreshold	.2 m
+robotConstants.pulloutSweepIncrement	10 deg
+portMappings.leftMotor	A
+portMappings.rightMotor	B
+portMappings.frontMotor	C
+portMappings.leftSensor	2
+portMappings.rightSensor	3
+portMappings.frontSensor	4
+portMappings.sonicSensor	1
+colorGroupings.blendColors	blue
+colorGroupings.blendColors	yellow
+colorGroupings.blendColors	white
+colorFunctions.roadColor	black
+colorFunctions.parkingColor	blue
+colorFunctions.intersectionColor	red
+colorFunctions.fastColor	white
+colorFunctions.slowColor	yellow
+colorTolerances.minimumBlend	.1
